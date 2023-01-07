@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Filmkollektivet">
+    
+
+<meta property="og:image:type" content="image/logo.png">
+<meta property="og:image:width" content="1024">
+<meta property="og:image:height" content="1024">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto+Condensed:wght@700&family=Roboto:wght@100&display=swap" rel="stylesheet">
+
+    <title>Filmkollektivet</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4KLWC0HCEH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-4KLWC0HCEH');
+</script>
+
+<body>
+  
+  
+    <section class="showcase">
+        <header>
+    
+          <a href="index.html"><h2 class="logo">Film kollektivet</h2></a>
+         
+          
+          <div class="toggle "></div>
+        </header>
+          
+  
+        <div class="hero"> 
+          <video autoplay loop muted plays-inline>
+            <source src="video/video.mp4" type="video/mp4">
+          </video>
+        </div>
+
+
+
+
+  <div class="text">
+    <h2>En forening </h2> 
+    <h2>der sætter fokus på talentudvikling for unge danske filmskabere.</h2>
+
+    <a href="omos.html">Læs mere</a>
+  </div>
+  <ul class="social">
+      
+    <li><a href="https://www.facebook.com/Filmkollektiveet" target="_blank" ><img src="images/fb.png"></a></li>
+    <li><a href="https://www.instagram.com/film.kollektivet/"target="_blank" ><img src="images/ig2.png"></a></li>
+    <li><a href="callto:+4542131980"target="_blank" ><img src="images/tlf.png"></a></li>
+    <li><a href="https://www.youtube.com/channel/UCpMWEdVjWRpdAAOvdm1wJcg/featured"target="_blank" ><img src="images/yt.png"></a></li>
+    <li><a href="mailto:info@filmkollektivet.dk"target="_blank" ><img src="images/mail2.png"></a></li>
+    
+    
+
+  
+
+  </ul>
+</section>
+<div class="menu">
+  <ul>
+    <li><a href="film.html">Film</a></li>
+    <li><a href="omos.html">Om os</a></li>
+    <li><a href="medlemmer.html">Medlemmer</a></li>
+    <li><a href="optagelse.html">Optagelse</a></li>
+    <li><a href="https://filmkollektivet.dk/Upcoming/?fbclid=IwAR2LoKUMyWv5Uk0ll_U1MZRUslDh8HjeAXjEVMYUTokos2FrzD4C8kmBL7Y">Upcoming </a></li>
+  </ul>
+</div>
+
+<script>
+  const menuToggle = document.querySelector('.toggle');
+  const showcase = document.querySelector('.showcase');
+
+  menuToggle.addEventListener('click', () => {
+  menuToggle.classList.toggle('active');
+  showcase.classList.toggle('active');
+})
+</script>
+</body>
+</html>
